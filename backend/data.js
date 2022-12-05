@@ -8,7 +8,7 @@ const data = {
             price: 120,
             countInStock: 10,
             brand: 'Fake',
-            rating: 4.5,
+            rating: 3.5,
             numReviews: 10,
             description: 'lorem ispum filler text do da do da',
 
@@ -34,7 +34,7 @@ const data = {
             price: 120,
             countInStock: 10,
             brand: 'Fake',
-            rating: 4.5,
+            rating: 2.5,
             numReviews: 10,
             description: 'lorem ispum filler text do da do da',
 
