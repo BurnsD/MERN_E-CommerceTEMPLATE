@@ -14,11 +14,30 @@ body {
 main {
   flex: 1;
 }
+/* Button layout */
+.btn-primary {
+  background-color: blue;
+  color: white;
+}
+/* Button Hover effect */
+.btn-primary:hover {
+  background-color: black;
+  color: yellow;
+}
+/* Button after being focused */
+.btn-primary:focus {
+  background-color: green;
+  color: black;
+}
 
 .products {
  display: flex;
  flex-wrap: wrap;
  justify-content: center;
+}
+/* Color of star rating in products */
+.rating span {
+  color: #ffc000;
 }
 
 .product {
@@ -26,6 +45,7 @@ main {
   margin: 1rem;
 }
 
+/* Hard setting for image sizes */
 .product img {
   width: 100%;
   min-width: 400px;
@@ -35,4 +55,9 @@ main {
 
 .product-info{
   padding: 1rem;
+}
+
+/* CLASS USED FOR SINGLE IMAGE ON PRODUCT SCREEN */
+.img-large{
+  max-width: 100%;
 }

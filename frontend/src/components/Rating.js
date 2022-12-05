@@ -1,3 +1,5 @@
+// If review Function is not wanted Delete or "Comment Out"
+
 function Rating(props) {
   const { rating, numReviews } = props;
   return (
@@ -57,6 +59,7 @@ function Rating(props) {
           }
         />
       </span>
+      <span>{' ' + numReviews + ' reviews'}</span>
     </div>
   );
 }
