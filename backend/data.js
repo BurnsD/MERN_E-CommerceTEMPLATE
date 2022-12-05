@@ -19,7 +19,7 @@ const data = {
             category: 'category1',
             image:'/images/p-acro-2.jpg',
             price: 120,
-            countInStock: 10,
+            countInStock: 0,
             brand: 'Fake',
             rating: 4.5,
             numReviews: 10,
